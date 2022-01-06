@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src = "http://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+$(document).ready(function(){
+	$('img').attr({
+		width: function(index){
+			return(index+1)*100;
+		},
+		height:100
+	});
+});
+</script>
+</head>
+<body>
+<img src="마동석.jpg"/>
+<img src="송강호.jpg"/>
+<img src="윤여정.jpg"/>
+</body>
+</html>

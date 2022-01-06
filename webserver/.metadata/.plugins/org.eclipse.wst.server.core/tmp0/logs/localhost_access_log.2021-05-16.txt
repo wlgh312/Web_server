@@ -1,0 +1,9 @@
+127.0.0.1 - - [16/May/2021:20:30:11 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [16/May/2021:20:30:13 +0900] "GET /JSPBook/WEB-INF/classes/Javabean/ScoreBean.java HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [16/May/2021:20:30:44 +0900] "GET /JSPBook/score.jsp HTTP/1.1" 200 568
+0:0:0:0:0:0:0:1 - - [16/May/2021:20:33:07 +0900] "GET /JSPBook/score.jsp HTTP/1.1" 200 579
+127.0.0.1 - - [16/May/2021:20:50:57 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [16/May/2021:20:51:00 +0900] "GET /JSPBook/grade.jsp HTTP/1.1" 200 603
+0:0:0:0:0:0:0:1 - - [16/May/2021:20:51:16 +0900] "GET /JSPBook/grade.html HTTP/1.1" 200 397
+0:0:0:0:0:0:0:1 - - [16/May/2021:20:51:39 +0900] "POST /JSPBook/grade.jsp HTTP/1.1" 200 630
+0:0:0:0:0:0:0:1 - - [16/May/2021:20:51:58 +0900] "POST /JSPBook/grade.jsp HTTP/1.1" 200 612

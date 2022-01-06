@@ -1,0 +1,19 @@
+package snippet;
+
+public class Snippet {
+	<html>
+	<head>
+	<title>Scripting tag</title>
+	</head>
+	<body>
+	<%
+	
+	                    ….. 이  부분을  완성하세요…
+	
+	
+	%>
+	</body>
+	</html>
+	
+}
+

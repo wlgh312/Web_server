@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>localhost 내용:</title>
+</head>
+<body>
+황기태 님 점수를 입력하세요<br>
+<input type="text" id="sc" style="width:300"/><br>
+<br>
+<div style="float:right;">
+<input type="button" onclick="scoreOk()" value="확인">
+<input type="button" onclick="closeWin()" value="취소">
+</div>
+<script>
+function scoreOk(){
+var x=document.getElementById("sc").value;
+opener.scorePrint(x);
+window.close();
+}
+function closeWin(){
+window.close();
+}
+</script>
+</body>
+</html>

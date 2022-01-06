@@ -1,0 +1,8 @@
+127.0.0.1 - - [03/Jan/2022:20:16:58 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [03/Jan/2022:20:17:03 +0900] "GET /JSPBook/week6/time.jsp HTTP/1.1" 200 331
+0:0:0:0:0:0:0:1 - - [03/Jan/2022:20:17:04 +0900] "GET /favicon.ico HTTP/1.1" 404 818
+0:0:0:0:0:0:0:1 - - [03/Jan/2022:20:18:20 +0900] "GET /JSPBook/week6/year.jsp HTTP/1.1" 200 328
+0:0:0:0:0:0:0:1 - - [03/Jan/2022:20:18:56 +0900] "GET /JSPBook/week6/thx.jsp HTTP/1.1" 200 346
+0:0:0:0:0:0:0:1 - - [03/Jan/2022:20:19:40 +0900] "GET /JSPBook/week6/radius.jsp HTTP/1.1" 200 326
+0:0:0:0:0:0:0:1 - - [03/Jan/2022:20:24:29 +0900] "GET /JSPBook/week6/errorpage.jsp HTTP/1.1" 500 461
+0:0:0:0:0:0:0:1 - - [03/Jan/2022:20:27:30 +0900] "GET /JSPBook/week6/include.jsp HTTP/1.1" 200 736

@@ -1,0 +1,11 @@
+<html>
+<head>
+<title>Scripting tag</title>
+</head>
+<body>
+<%
+for(var i=2; i<21; i+2){
+   out.print(i);
+%>
+</body>
+</html>

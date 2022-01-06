@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<h2>if-else를 이용한 학점 매기기</h2>
+</head>
+<body>
+<hr></hr>
+<p id="scoreP"></p>
+<script type="text/javascript">
+window.name="parentWin";
+var scoreInput=window.open("score.html","scoreInput", "width=310, height=110, location=no, toolbars=no, atatus=no");
+window.scorePrint = function(data){
+document.getElementById("scoreP").innerText=data;
+}
+</script>
+</body>
+</html>

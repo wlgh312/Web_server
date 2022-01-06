@@ -1,0 +1,10 @@
+
+6월 04, 2021 20:55:37.48 NEW SESSION
+6월 04, 2021 20:55:37.48 [9396:12252:0604/205537.479:ERROR:component_installer.cc(327)] Failed to read manifest or verify installation for Hyphenation (C:\Users\wlgh3\AppData\Local\Google\Chrome\User Data\hyphen-data\92.0.4495.0).: ������ ������ ã�� �� �����ϴ�. (0x2)
+6월 04, 2021 20:55:49.56 [9396:14408:0604/205549.557:ERROR:device_event_log_impl.cc(214)] [20:55:49.556] USB: usb_device_handle_win.cc:1054 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+6월 04, 2021 20:55:49.56 [9396:14408:0604/205549.563:ERROR:device_event_log_impl.cc(214)] [20:55:49.562] USB: usb_device_handle_win.cc:1054 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+6월 04, 2021 21:21:18.95 [9396:14408:0604/212118.950:ERROR:device_event_log_impl.cc(214)] [21:21:18.947] USB: usb_service_win.cc:258 Failed to get device driver name: ��Ұ� �����ϴ�. (0x490)
+
+6월 15, 2021 23:17:27.26 NEW SESSION
+6월 15, 2021 23:17:27.26 [14780:24528:0615/231727.254:ERROR:device_event_log_impl.cc(214)] [23:17:27.255] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+6월 15, 2021 23:17:27.26 [14780:24528:0615/231727.255:ERROR:device_event_log_impl.cc(214)] [23:17:27.255] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)

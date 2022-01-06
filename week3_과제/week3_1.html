@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.tab{
+width:800px;
+height:380px;
+border:1px solid grey;
+}
+.tab li:target{
+background:#ccc;
+}
+.tab div {
+  display: none;
+}
+
+.tab div:target {
+  display: block;
+}
+#hov{display:none;}
+#mainmenu li:hover img:first-child{display:none;}
+#mainmenu li:hover #hov{display:inline-block;}
+#mainmenu li a:hover{
+color:white;
+}
+#mainmenu li:hover{
+color:white;
+background:#1161B1;
+border-right:1px solid lightgrey;
+display:inline-block;
+float:left;
+padding-right:40px;
+width:120px;
+height:120px;
+}
+#mainmenu{
+width:700px;
+height:80px;
+margin-left:30px;
+text-align:center;
+}
+#mainmenu li{
+border-top:1px solid lightgrey;
+display:inline-block;
+padding-right:40px;
+float:left;
+border-right:1px solid lightgrey;
+width:120px;
+height:120px;
+list-style-type:none;
+}
+#mainmenu li a{
+color:black;
+text-decoration:none;
+display:inline-block;
+width:120px;
+height:120px;
+padding:20px;
+}
+#mainmenu li:last-child{
+border-right:none;
+}
+span{
+display:block;
+}
+#menu{
+background-color:#e9e9e9;
+width:800px;
+text-align:right;
+}
+#menu ul{
+margin:0;
+padding:0;
+width:700px;
+}
+#menu ul li{
+display:inline-block;
+list-style-type:none;
+padding:25px 23px;
+}
+#menu ul li a{
+color:black;
+text-decoration:none;
+}
+#q{
+float:left;
+margin-left:10px;
+display:inline-block;
+padding:20px;
+background:#1478CD;
+color:white;
+text-align:center;
+box-shadow: 5px 5px 20px 3px grey;
+}
+</style>
+</head>
+<body>
+<div class="tab">
+<nav id="menu">
+<div id="q">QUICK<br>SERVICE</div>
+
+<ul>
+<li><a href="#link1">재학생</a></li>|
+<li><a href="#link2">교수</a></li>|
+<li><a href="#">직원</a></li>|
+<li><a href="#">수험생</a></li>|
+<li><a href="#">동문</a></li>|
+<li><a href="#">방문객</a></li>
+</ul>
+</nav>
+<div id="link1">
+<ul id="mainmenu">
+<li style="border-top:0px">
+<a href="https://was1.hallym.ac.kr:8081/HLMS/main/LoginPage.do">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico1.png" alt="통합정보시스템">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico1-hov.png" alt="통합정보시스템" id="hov">
+<span>통합정보시스템</span>
+</a>
+</li>
+<li style="border-top:0px">
+<a href="https://hqna.hallym.ac.kr/hqna/index.do">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico3.png" alt="한림Q&A">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico3-hov.png" alt="한림Q&A" id="hov">
+<span>한림Q&A</span>
+</a>
+</li>
+<li style="border-top:0px">
+<a href="http://dorm.hallym.ac.kr/">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico6.png" alt="학생생활관">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico6-hov.png" alt="학생생활관" id="hov">
+<span>학생생활관</span>
+</a>
+</li>
+<li style="border-top:0px">
+<a href="/hallym_univ/sub04/cP6/sCP4">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico11.png" alt="셔틀버스">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico11-hov.png" alt="셔틀버스" id="hov">
+<span>셔틀버스</span>
+</a>
+</li>
+</ul>
+<ul id="mainmenu">
+<li>
+<a href="https://smartlead.hallym.ac.kr/">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico2.png" alt="SmartLEAD">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico2-hov.png" alt="SmartLEAD" id="hov">
+<span>SmartLEAD</span>
+</a>
+</li>
+<li>
+<a href="http://library.hallym.ac.kr/">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico5.png" alt="일송기념도서관">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico5-hov.png" alt="일송기념도서관" id="hov">
+<span>일송기념도서관</span>
+</a>
+</li>
+<li>
+<a href="/hallym_univ/sub04/cP6/sCP3">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico14.png" alt="통학버스">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico14-hov.png" alt="통학버스" id="hov">
+<span>통학버스</span>
+</a>
+</li>
+<li>
+<a href="http://become.hallym.ac.kr/">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico15.png" alt="한림BeCome">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico15-hov.png" alt="한림BeCome" id="hov">
+<span>한림BeCome</span>
+</a></li>
+</ul>
+</div>
+<div id="link2">
+<ul id="mainmenu">
+<li style="border-top:0px">
+<a href="https://was1.hallym.ac.kr:8081/HLMS/main/LoginPage.do">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico1.png" alt="통합정보시스템">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico1-hov.png" alt="통합정보시스템" id="hov">
+<span>통합정보시스템</span>
+</a>
+</li>
+<li style="border-top:0px">
+<a href="https://att.hallym.ac.kr/login">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico25.png" alt="전자출결시스템">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico25-hov.png" alt="전자출결시스템" id="hov">
+<span>전자출결시스템</span>
+</a>
+</li>
+<li style="border-top:0px"i>
+<a href="https://rnd.hallym.ac.kr/">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico17.png" alt="연구행정통합시스템">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico17-hov.png" alt="연구행정통합시스템" id="hov">
+<span>연구행정통합시스템</span>
+</a>
+</li>
+<li style="border-top:0px">
+<a href="https://www.hallym.ac.kr/hallym_univ/sub04/cP13/sCP1/tab1">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico28.png" alt="행정부서/기관">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico28-hov.png" alt="행정부서/기관" id="hov">
+<span>행정부서/기관</span>
+</a>
+</li>
+</ul>
+<ul id="mainmenu">
+<li>
+<a href="https://smartlead.hallym.ac.kr/">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico2.png" alt="SmartLEAD">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico2-hov.png" alt="SmartLEAD" id="hov">
+<span>SmartLEAD</span>
+</a>
+</li>
+<li>
+<a href="https://gw.hallym.ac.kr/index.aspx">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico26.png" alt="한림그룹웨어">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico26-hov.png" alt="한림그룹웨어" id="hov">
+<span>한림그룹웨어</span>
+</a>
+</li>
+<li>
+<a href="http://was1.hallym.ac.kr:8080/HLMS/newemp_login_2.jsp">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico3.png" alt="채용시스템">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico3-hov.png" alt="채용시스템" id="hov">
+<span>채용시스템</span>
+</a>
+</li>
+<li>
+<a href="https://www.hallym.ac.kr/hallym_univ/sub11/cP5/sCP5">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico22.png" alt="한림Vision">
+<img src="C:\Users\wlgh3\Desktop\웹서버\week3_과제\quick-ico22-hov.png" alt="한림Vision" id="hov">
+<span>한림Vision</span>
+</a></li>
+</ul>
+</div>
+</div>
+<script>
+location.href="#link1";
+</script>
+</body>
+</html>
