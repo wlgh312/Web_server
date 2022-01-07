@@ -12,8 +12,7 @@
 ### * Web
 주요 기술 - JAVA, JSP, JavaBeans, Apache Tomcat<br>
 Model1 방식 선택<br>
-<center>
-<img height="240" src="https://github.com/wlgh312/Web_server/blob/master/md_img/web_architecture.JPG"/><br><b>웹 구조도</b></center>
+<img height="240" src="https://github.com/wlgh312/Web_server/blob/master/md_img/web_architecture.JPG"/><br><b>웹 구조도</b>
 |<img height="240" src="https://github.com/wlgh312/Web_server/blob/master/md_img/main.jpg"/>|<img height="240" src="https://github.com/wlgh312/Web_server/blob/master/md_img/result.jpg"/>|
 |---|---|
 |<b>시작 화면</b>|<b>결과 확인 화면</b>|
