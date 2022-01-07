@@ -6,15 +6,15 @@
 몰려 제대로 여행을 즐기지 못하며 코로나에 따른 거리 두기 또한 지켜지지 않고 있다. 따라서 웹사이트를 통해 국내의 다양한 축제를 알리고 숨겨진 관광지를 알려줌으로써 관광객들이 
 쾌적하고 안전한 여행을 즐기도록 안내해주는 것이 'Festival Travel'의 목적이다.
 
-* Data
+### * Data
 주요 기술 - MySQL<br>
 사용 데이터 - "전국문화축제표준데이터", 공공데이터포털, 2021.05.12, https://www.data.go.kr/data/15013104/standard.do
-* Web
+### * Web
 주요 기술 - JAVA, JSP, JavaBeans, Apache Tomcat<br>
-Model1 방식 선택
-<img height="240" src="https://github.com/wlgh312/Web_server/blob/master/web_architecture.jpg"/><br><b>웹 구조도</b>
+Model1 방식 선택<br>
+<img height="240" src="https://github.com/wlgh312/Web_server/blob/master/md_img/web_architecture.jpg"/><br><b>웹 구조도</b>
 <table>
 <tr><td>
-<img height="240" src="https://github.com/wlgh312/Web_server/blob/master/main.jpg"/></td>
-<td><img height="240" src="https://github.com/wlgh312/Web_server/blob/master/result.jpg"/></td></tr>
-<tr><td>시작 화면</td><td>결과 확인 화면</td></tr></table>
+<img height="240" src="https://github.com/wlgh312/Web_server/blob/master/md_img/main.jpg"/></td>
+<td><img height="240" src="https://github.com/wlgh312/Web_server/blob/master/md_img/result.jpg"/></td></tr>
+<tr><td><b>시작 화면</td><td>결과 확인 화면</b></td></tr></table>
